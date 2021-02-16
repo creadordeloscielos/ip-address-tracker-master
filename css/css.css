@@ -10,11 +10,15 @@
   margin: auto;
 }
 
+p {
+  font-family: "Rubik", sans-serif;
+}
+
 h1 {
   font-family: "Rubik", sans-serif;
   color: #fff;
   font-weight: 500;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 30px;
 }
 
@@ -22,44 +26,37 @@ main {
   background-image: url(../images/pattern-bg.png);
   background-size: cover;
   text-align: center;
-  padding: 100px 0px;
+  padding: 80px 0px;
+  position: relative;
 }
 
 .ip {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 input[type=text] {
   font-weight: 400;
-  font-size: 1.5rem;
-  padding: 10px 15px;
+  font-size: 1.3rem;
+  padding: 15px 25px;
   border: none;
   width: 600px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-transition: -webkit-box-shadow .5s;
-  transition: -webkit-box-shadow .5s;
   transition: box-shadow .5s;
-  transition: box-shadow .5s, -webkit-box-shadow .5s;
 }
 
 input[type=text]:focus {
   outline: none;
-  -webkit-box-shadow: inset 0 0 3px 1pt #252525;
-          box-shadow: inset 0 0 3px 1pt #252525;
+  box-shadow: inset 0 0 3px 1pt #2b2b2b;
 }
 
 input[type=submit] {
   font-family: "Rubik", sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding: 10px 20px;
   background: #000;
   color: #fff;
@@ -75,7 +72,46 @@ input[type=submit]:focus {
 
 input[type=submit]:hover {
   background: #2b2b2b;
-  -webkit-transition: all .5s;
   transition: all .5s;
+}
+
+.map {
+  height: 52vh;
+}
+
+iframe {
+  width: 100%;
+}
+
+.locations {
+  display: flex;
+  background: #fff;
+  border-radius: 10px;
+  max-width: 1000px;
+  width: 90%;
+  margin: auto;
+  box-sizing: border-box;
+  margin-bottom: -150px;
+}
+
+.location {
+  color: #000;
+  padding: 40px 30px;
+  text-transform: uppercase;
+  text-align: left;
+  margin: auto;
+}
+
+.location p {
+  font-weight: 500;
+  font-size: 1.4rem;
+  width: 100%;
+}
+
+.title p {
+  margin-bottom: 10px;
+  color: #969696;
+  font-weight: 700;
+  font-size: .8rem;
 }
 /*# sourceMappingURL=css.css.map */
