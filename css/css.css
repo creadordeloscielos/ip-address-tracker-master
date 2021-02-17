@@ -74,6 +74,8 @@ input[type=submit] {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   cursor: pointer;
+   -webkit-appearance: none;
+   appearance: none;
 }
 
 input[type=submit]:focus {
