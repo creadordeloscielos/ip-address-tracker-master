@@ -55,6 +55,7 @@ input[type=text] {
   transition: box-shadow .5s;
   transition: box-shadow .5s, -webkit-box-shadow .5s;
    -webkit-appearance: none;
+  appearance: none;
 }
 
 input[type=text]:focus {
